@@ -16,6 +16,7 @@ This project aims to implement simple SYN and DNS scans using the Scapy library 
 <b>SYN Scan:</b> Detects open TCP ports by sending SYN packets and analyzing responses.
 
 <b>DNS Scan:</b> Checks if a DNS server is running by sending DNS queries and checking for responses.
+
 <b>Customizable Port List: </b> Allows scanning of a specified set of common ports.
 
 <b>Interactive Input:</b> Accepts target IP address input from the user.
