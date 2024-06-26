@@ -24,15 +24,16 @@ This project aims to implement simple SYN and DNS scans using the Scapy library 
 <b>Error Handling:</b> Validates IP address input and handles invalid addresses gracefully.
 
 # Interactions in the Code
-Port List: The ports list contains commonly used ports to scan for open services. This list can be modified to include any set of ports.
-SYN Scan: The SynScan function sends TCP SYN packets to the target's specified ports and checks for SYN/ACK responses, indicating open ports.
-DNS Scan: The DNSScan function sends DNS queries to the target and checks for responses to determine if a DNS server is running.
-User Input: The script accepts an IP address from the user and validates it. If the address is valid, it performs the scans.
-Steps to Execute the Project
-Prepare the Environment: Ensure Python and Scapy are installed on your system. Install Scapy using pip install scapy.
-Create the Script: Copy the provided code into a Python script file (e.g., PortScan.py).
-Run the Script: Execute the script using the command python PortScan.py. Enter the target IP address when prompted.
-Review the Output: The script will display open ports and whether a DNS server is running on the target system.
+The ports list contains commonly used ports to scan for open services. This list can be modified to include any set of ports. The SynScan function sends TCP SYN packets to the target's specified ports and checks for SYN/ACK responses, indicating open ports. The DNSScan function sends DNS queries to the target and checks for responses to determine if a DNS server is running. The python code accepts an IP address from the user and validates it. If the address is valid, it performs the scans.
+
+# Steps to Execute the Project
+- Prepare the Environment by ensuring Python and Scapy are installed on your system.
+- Create the Script
+  - Copy the provided code into a Python script file (e.g., PortScan.py).
+- Run the Script
+  - Execute the script using the command python PortScan.py. Enter the target IP address when prompted.
+- Review the Output
+  - The script will display open ports and whether a DNS server is running on the target system.
 
 # Conclusion
 By following these steps, you can use this project to perform basic network scans of your systems, enhancing your understanding of network security and reconnaissance techniques.
