@@ -1,4 +1,4 @@
-# ActiveScanning
+# ActiveScanning (Port Scanning)
 This project implements active scanning techniques using a special library in Python called Scapy. It features both SYN and DNS scans to detect open ports and DNS servers on a target system.
 
 # General Information
